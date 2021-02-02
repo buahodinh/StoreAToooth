@@ -562,7 +562,7 @@
 .set > a.active{
   background-color:#dce7e0;
   color: #333;
-  border-radius: 20px;
+  border-radius: 3em;
 }
 .still__ct{
   background-color: #fff;
