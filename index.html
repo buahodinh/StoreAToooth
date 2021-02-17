@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="slick-master/slick-master/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick-master/slick-master/slick/slick.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.13.1-web/css/all.min.css">
+    
+
 </head>
 
 <body>
@@ -45,46 +49,47 @@
                         <nav class="header__navbar">
                             <ul class="header__navbar-logo">
                                 <li class="header__navbar-logo1">
-                                    <img src="./assets/img/logo.png" alt="" ">
+                                    <img src="./assets/img/logo.png" alt="" >
                                 </li>
                             </ul>
                         </nav>
-                        <label for=" nav-mobile-input" class="nav__bars">
-                                    <i class="fas fa-bars"></i>
-                                    </label>
-                                    <input type="checkbox" hidden name="" class="nav_input" id="nav-mobile-input">
-                                    <label for="nav-mobile-input" class="nav__overlay"></label>
 
-                                    <nav class="nav__pc">
-                                        <label for="nav-mobile-input" class="nav__close">
-                                            <i class="fas fa-times"></i>
-                                        </label>
-                                        <ul class="nav__list">
-                                            <li>
-                                                <a href="" class="nav__link">Dental Stem Cells 101</a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="nav__link">Why Bank Stem Cells</a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="nav__link">Why Teeth</a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="nav__link">Emerging Treatments</a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="nav__link">Recent News</a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="nav__link">FAQ's</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                        <label for=" nav-mobile-input" class="nav__bars">
+                            <i class="fas fa-bars"></i>
+                            </label>
+                            <input type="checkbox" hidden name="" class="nav_input" id="nav-mobile-input">
+                            <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                            <nav class="nav__pc">
+                                <label for="nav-mobile-input" class="nav__close">
+                                    <i class="fas fa-times"></i>
+                                </label>
+                                <ul class="nav__list ">
+                                    <li>
+                                        <a href="" class="nav__link">Dental Stem Cells 101</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="nav__link">Why Bank Stem Cells</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="nav__link">Why Teeth</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="nav__link">Emerging Treatments</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="nav__link">Recent News</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="nav__link">FAQ's</a>
+                                    </li>
+                                </ul>
+                            </nav>
                     </div>
                     <div class="grid__column-8">
 
                         <nav class="header__navbar">
-                            <ul class="header__navbar-list1">
+                            <ul class="header__navbar-list1 ">
                                 <li class="header__navbar-item header__navbar-item-notify ">
                                     <a href="" style="color: black; text-decoration:none">Dental Stem Cells 101</a>
                                     <div class="header__notify">
@@ -243,11 +248,13 @@
                     </div>
 
                 </div>
-                <div class="seeon">
+
+
+                <!-- <div class="seeon">
                     <div class="seeon__img">
                         <img src="./assets/img/line.png" alt="">
                         <div class="seeon__title">
-                            <h3>Ass See On</h3>
+                            <h3>As See On</h3>
                         </div>
                         <img src="./assets/img/line.png" alt="">
                     </div>
@@ -259,9 +266,20 @@
                         <img src="./assets/img/ATH5.jpg" alt="" class="seeon__logo-img">
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-        </div>
+
+        <!-- As see on -->
+
+            <section class="slider-area slider">
+                <div><img src="assets/img/ATH1.jpg" alt=""></div>
+                <div><img src="assets/img/ATH2.jpg" alt=""></div>
+                <div><img src="assets/img/ATH3.jpg" alt=""></div>
+                <div><img src="assets/img/ATH4.jpg" alt=""></div>
+                <div><img src="assets/img/ATH5.jpg" alt=""></div>
+            </section>
+        <!-- End of As see on -->
+            
         <div class="ourlab">
             <ul class="ourlab__header">
                 <li class="ourlab__header-sua">
@@ -284,6 +302,8 @@
                 </ul>
             </ul>
         </div>
+
+
         <div class="ourpro">
             <div class="ourpro__header">
                 <ul class="ourpro__img">
@@ -307,6 +327,9 @@
 
             </div>
         </div>
+
+
+
         <div class="parent">
             <div class="parent__conten">
 
@@ -368,6 +391,8 @@
                 </ul>
             </div>
         </div>
+
+        
         <div class="still">
             <div class="still__header">
                 <h1>Still Have Questions?</h1>  
@@ -559,7 +584,9 @@
 
 
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="slick-master/slick-master/slick/slick.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
             document.querySelector('.close-ads').addEventListener('click', function () {
@@ -573,6 +600,17 @@
             // })
 
         });
+    </script>
+    <script>
+        $(".slider-area").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        centerMode:true,
+        autoplay: true,
+        speed: 300
+      });
     </script>
     <script>
         $(document).ready(function () {

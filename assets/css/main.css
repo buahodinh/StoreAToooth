@@ -1,4 +1,6 @@
 
+
+
 .header{
     width: 100%;
     
@@ -13,10 +15,42 @@
     width: 100%;
     /* margin-top: -2px; */
     display: flex;
-    
 
-  
 }
+
+.slider {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
 .header_nav{
     z-index: 1;
     
@@ -318,7 +352,7 @@
     text-align: center;
 }
 .seeon__title h3{
-    font-size: 16px;
+    font-size: 20px;
 }
 .seeon__logo {
     display: flex;
@@ -767,3 +801,5 @@
 .nav_input:checked ~ .nav__pc{
     transform: translateX(0%);
 }
+
+
